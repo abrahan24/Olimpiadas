@@ -38,6 +38,6 @@ public class IndexController {
     @GetMapping(value = "/inicio")
     public String Principal(){
 
-        return "zelda/team";
+        return "zelda/index";
     }
 }
