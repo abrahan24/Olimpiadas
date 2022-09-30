@@ -1231,7 +1231,8 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   padding-top: 150px;
-  background-image: url(../../assets/img/main-banner-bg1.jpg);
+  /* background-image: url(../../assets/img/main-banner-bg1.jpg); */
+  background-color:rgb(red, green, blue);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9334,23 +9335,7 @@ Sidebar Modal CSS
   margin-right: 0;
 }
 
-.buy-now-btn {
-  left: 30px;
-  bottom: 30px;
-  z-index: 333;
-  position: fixed;
-  border-radius: 30px;
-  color: var(--whiteColor);
-  background-color: #81b441;
-  padding: 10px 20px 10px 40px;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  font-size: 14px;
-  font-weight: 500;
-  font-family: var(--fontFamily3);
-}
+
 
 .buy-now-btn img {
   -webkit-transform: translateY(-50%);

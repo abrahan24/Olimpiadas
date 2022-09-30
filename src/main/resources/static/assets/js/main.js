@@ -447,8 +447,6 @@
 		});
 	});
 
-	// Buy Now Btn
-    $('body').append("<a href='https://themeforest.net/checkout/from_item/27293682?license=regular&support=bundle_6month&_ga=2.28973567.2131256700.1648234835-1425290503.1590986634' class='buy-now-btn' target='_blank'><img src='assets/img/envato.png' alt='envato'/> Buy Zelda</a>");
 
 }(jQuery));
 
